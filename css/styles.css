@@ -41,3 +41,38 @@ body {
   height: 150px;
   background-color: #264359;
 }
+
+.green {
+  height: 200px;
+  background-color: green;
+}
+.blue {
+  height: 100px;
+  background-color: blue;
+}
+
+.col-sm-1 {
+  height: 100px;
+  background-color: #ff0000;
+  border: 1px solid #000;
+}
+
+.left {
+  height: 300px;
+  background-color: #000;
+  border: 1px solid #ff00ff;
+}
+
+.right {
+  height: 300px;
+  background-color: #ffff00;
+  border: 1px solid #fff;
+}
+
+/*Media queries starts*/
+
+@media /*<--rule*/ screen /*<-- media*/ and (min-width: 600px) {
+.right {
+    background-color: #fff;
+  }
+}
