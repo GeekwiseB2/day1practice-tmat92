@@ -1,18 +1,78 @@
-li {
-  list-style-type: none;
-  color: #e40007;
+/*Universal*/
+.border {
+  border: 1px solid #000;
+}
+body {
+  background-color: #000;
+}
+/*Container Styles*/
+.master {
+  height: 800px;
+  margin: 1%;
+  background-color: #ffff00;
+}
+/*Header Styles*/
+.header {
+  height: 150px;
+  background-color: #453267;
+}
+/*Nav Styles*/
+.nav {
+  height: 75px;
+  background-color: #e40007;
+}
+/*Content Styles*/
+.content {
+  height: 200px;
+  background-color: #0000ff;
 }
 
-@media screen and (min-width: 300px) {
-  .col-md-3 {
-    background-color: blue;
-    border-radius: 20px;
-  }
+.aside {
+  height: 200px;
+  background-color: #00ff00;
+}
+/*Promo Syles*/
+.promo {
+  height:100px;
+  background-color: #487356;
+}
+/*Footer Styles*/
+.footer {
+  height: 150px;
+  background-color: #264359;
 }
 
-@media screen and (min-width: 500px) {
-  .col-md-3 {
-    background-color: #e43007;
-    font-family: cursive;
+.green {
+  height: 200px;
+  background-color: green;
+}
+.blue {
+  height: 100px;
+  background-color: blue;
+}
+
+.col-sm-1 {
+  height: 100px;
+  background-color: #ff0000;
+  border: 1px solid #000;
+}
+
+.left {
+  height: 300px;
+  background-color: #000;
+  border: 1px solid #ff00ff;
+}
+
+.right {
+  height: 300px;
+  background-color: #ffff00;
+  border: 1px solid #fff;
+}
+
+/*Media queries starts*/
+
+@media /*<--rule*/ screen /*<-- media*/ and (min-width: 600px) {
+.right {
+    background-color: #fff;
   }
 }

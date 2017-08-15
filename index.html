@@ -3,23 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Day 1 HW</title>
+    <title>Take Home WK 1</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-    <div class="row">
-      <div class="col-md-3">
-        <h1>TMAT RULEZ</h1>
+  <div class="master container-fluid">
+      <p>container-fluid</p>
+    <div class="container">
+      <!-- Row One -->
+      <div class="row">
+        <div class="border header col-md-12">
+          <p>header</p>
+        </div>
       </div>
-      <div class="col-md-9">
-            <h1>Hello World, this is my story</h1>
-            <h3>I took this class to increase my knowledge in front-end devlopmentI want to be successful in life.</h3>
+      <!--.row>main.col-md-9+aside.col-md-3-->
+      <div class="row">
+        <main class="col-md-9 green">
+          <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-1"></div>
+          </div>
+        </main>
+        <aside class="col-md-3 blue"></aside>
       </div>
+      <!-- Row Two -->
+      <div class="row">
+        <div class="border nav col-md-12">
+          <p> nav</p>
+        </div>
+      </div>
+      <!-- Row Three -->
+      <div class="row">
+        <div class="border content col-md-10">
+          <p>content</p>
+        </div>
+        <div class="border aside col-md-2">
+          <p>aside</p>
+        </div>
+      </div>
+      <!-- Row Four -->
+      <div class="row">
+        <div class="border promo promo1 col-md-3">
+          <p>promo1</p>
+        </div>
+        <div class="border promo promo2 col-md-3">
+          <p>promo2</p>
+        </div>
+        <div class="border promo promo3 col-md-3">
+          <p>promo3</p>
+        </div>
+        <div class="border promo promo4 col-md-3">
+          <p>promo4</p>
+        </div>
+      </div>
+      <!-- Row Five -->
+      <div class="row">
+      <div class="border footer col-md-12">
+        <p>footer</p>
+      </div>
+      <!-- column ordering starts  -->
+      <div class="row">
+        <div class="col-md-7 col-md-push-5 left"></div>
+        <div class="col-md-5 col-md-pull-7 right"></div>
+        <!-- <div class="col-md-4 col-md-pull-4 green"></div> -->
+      </div>
+      <!-- column ordering ends -->
+    </div>
     </div>
   </div>
-</body>
+  </body>
 </html>
