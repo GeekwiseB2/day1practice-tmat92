@@ -42,37 +42,15 @@ body {
   background-color: #264359;
 }
 
-.green {
-  height: 200px;
-  background-color: green;
-}
-.blue {
-  height: 100px;
-  background-color: blue;
-}
+ @media screen and (min-width: 768px) {
+    .content {
+     background-color: #879549;
+   }
+ }
 
-.col-sm-1 {
-  height: 100px;
-  background-color: #ff0000;
-  border: 1px solid #000;
-}
+ @media screen and (min-width: 575px) {
+    .aside {
+     background-color: #675848;
+   }
+ }
 
-.left {
-  height: 300px;
-  background-color: #000;
-  border: 1px solid #ff00ff;
-}
-
-.right {
-  height: 300px;
-  background-color: #ffff00;
-  border: 1px solid #fff;
-}
-
-/*Media queries starts*/
-
-@media /*<--rule*/ screen /*<-- media*/ and (min-width: 600px) {
-.right {
-    background-color: #fff;
-  }
-}
